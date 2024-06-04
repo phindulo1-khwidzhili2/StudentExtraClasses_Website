@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<head>
+    <!--IT WILL MAKE WEBSITE RESPONSIVE--->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home</title>
+     <!--CONNECTING CSS FILE TO HTML--->
+    <link rel="stylesheet" href="style.css">
+    <!---GOOGLE FONTS FROM GOOGLE---->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:wght@100;200;400;500;600;700;800&family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
+    
+    <!---FOR MENUS---->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    
+</head>
+       <body>
+           
+         <section class="sub-header">
+             
+           <nav><a href="index.html"><img src="myPhotos/logo.jpg" alt=""></a>
+               <div class="navigation-links" id="navLinks">
+                   <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                   <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="fees.html">FEES</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                   
+                   
+                   </ul>
+               </div>
+             
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+             
+             
+             
+             </nav>
+          <h1>About Us</h1>
+           
+           </section>
+           
+           <!--------------about us content---->
+
+        <section class="about-us">
+            <div class="row">
+           <div class="about-col">
+            <h1>We believe in our way of tutoring.</h1>
+    <p>GMSEC Pty Ltd Is a tutoring company which is based in
+Gauteng Vanderbijlpark town. GMSEC has been active for
+the past 12 months helping students to better their
+understanding of Mathematics and Physical Sciences
+principles. Our methods have been recommended to be one
+of the most effective methods of learning and teaching due to
+the fact that we work on one on one lesson basis, this is to
+give each student special attention and to  focus on arrears
+which they really need to improve on.</p>
+               <a href="myPhotos/GMSEC%20ADMISSION%20FORM.docx" class="the-button green-btn">Download Application Form Now</a>
+               
+               
+            
+            
+            
+            
+            </div>
+           
+           <div class="about-col">
+            <img src="myPhotos/adults.jpg" alt="">
+            
+            
+            </div>
+           </div>
+           
+           </section>
+           
+           
+        
+           
+            <!-------footer------>    
+           <section class="footer">
+           <h4>OBJECTIVE</h4>
+                  <P>1.Our goal is to ensure that our students fully understand the fundamental
+principles of Mathematics and Physical Sciences. We aim to help the
+students achieve<br>  results whichwill be satisfactory to them and their
+parents also ensuring that the students achieve results which will
+enable<br> them to gain university admission and bursary awards based on
+their academic performance.
+<br>2.Maths and Science are the primarily subjects required for university
+admission, without good marks or symbol for these two subjects, it is
+almost impossible for a student<br> to get admitted. That is why our main
+objective is to help our students get good marks <br>for Maths and Science
+so they gain University admission</P> 
+           <div class="icons">
+               <i class="fa fa-envelope-o"></i>
+                <i class="fa fa-whatsapp"></i>
+                  <i class="fa fa-phone"></i>
+               
+               
+               </div>
+           
+           <p>Designed by Khwidzhili_ITgroup | CopyRight @ GMSEC Pty Ltd</p>
+           </section>
+           
+           
+           
+       <!-------JAVASCRIPT FOR THE TOGGLE MENU------>    
+           
+          <script>
+           
+           var navLinks = document.getElementById("navLinks");
+              
+              function showMenu(){
+                  navLinks.style.right = "0";
+              
+              }
+               function hideMenu(){
+                  navLinks.style.right = "-200px";
+              }
+                  
+           </script> 
+           
+           
+           
+           
+    
+    
+    
+    </body>
+       
+       </html>

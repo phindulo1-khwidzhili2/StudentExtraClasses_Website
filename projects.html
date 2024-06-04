@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+
+<head>
+    <!--IT WILL MAKE WEBSITE RESPONSIVE--->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>home</title>
+     <!--CONNECTING CSS FILE TO HTML--->
+    <link rel="stylesheet" href="style.css">
+    <!---GOOGLE FONTS FROM GOOGLE---->
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:wght@100;200;400;500;600;700;800&family=Roboto:wght@100;300;400;500;900&display=swap" rel="stylesheet">
+    
+    <!---FOR MENUS---->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+    
+</head>
+       <body>
+           
+         <section class="sub-header">
+             
+           <nav><a href="index.html"><img src="myPhotos/logo.jpg" alt=""></a>
+               <div class="navigation-links" id="navLinks">
+                   <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                   <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="fees.html">FEES</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                   
+                   
+                   </ul>
+               </div>
+             
+             <i class="fa fa-bars" onclick="showMenu()"></i>
+             
+             
+             
+             </nav>
+          <h1>Our Projects</h1>
+           
+           </section>
+           
+           <!--------------our projects---->
+           <section class="syllabus">
+             <h1></h1>
+             <P>WE TAKE CARE OF YOUR ASSIGNMENTS AND HOMEWORKS.</P>
+           
+           <div class="row">
+             <div class="syllabus-col">
+               <img src="myPhotos/assignment.jpg" alt="">
+                  <h3>Simplifying your assignment.</h3>
+                 <p>We assist Students with Homework and Assignments.</p>
+
+               
+               </div>
+            
+               <div class="syllabus-col">
+               <img src="myPhotos/homework.jpg" alt="">
+                   <h3>Siplifying your homeworks.</h3>
+                 <p>  We do this by assessing students with question papers of tests they are going <br>to write 
+					e.g. if a student is to write  june examinations, we test the student with<br>previous five years question papers of those examinations.</p>
+
+               
+               </div>
+             </div>
+           
+           
+           
+           
+           
+           </section>
+           
+
+       
+           
+        
+           
+            <!-------footer------>    
+           <section class="footer">
+           <h4>About Us</h4>
+                  <P></P> 
+           <div class="icons">
+               <i class="fa fa-envelope-o"></i>
+                <i class="fa fa-whatsapp"></i>
+                  <i class="fa fa-phone"></i>
+               
+               
+               </div>
+           
+           <p>Designed by Khwidzhili_ITgroup | CopyRight @ GMSEC Pty Ltd</p>
+           </section>
+           
+           
+           
+       <!-------JAVASCRIPT FOR THE TOGGLE MENU------>    
+           
+          <script>
+           
+           var navLinks = document.getElementById("navLinks");
+              
+              function showMenu(){
+                  navLinks.style.right = "0";
+              
+              }
+               function hideMenu(){
+                  navLinks.style.right = "-200px";
+              }
+                  
+           </script> 
+           
+           
+           
+           
+    
+    
+    
+    </body>
+       
+       </html>
